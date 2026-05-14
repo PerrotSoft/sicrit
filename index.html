@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Export Launcher</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Фоновые пятна для эффекта стекла -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="glass_launcher">
+        <div class="launcher_header">
+            <div class="icon_pulse">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+            </div>
+            <h1>Архив сообщений</h1>
+            <p class="details">Локальный просмотр экспорта</p>
+        </div>
+        
+        <div class="chat_list">
+            <!-- Ссылка на первый файл в той же папке -->
+            <a href="messages.html" class="chat_item">
+                <div class="userpic userpic_main">
+                    <span class="initials">Parrot fILES</span>
+                </div>
+                <div class="chat_info">
+                    <span class="bold">Messenger</span>
+                    <span class="details">Файл: messenger.html</span>
+                </div>
+                <div class="arrow_icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+            </a>
+
+            <!-- Ссылка на второй файл в той же папке -->
+            <a href="messages1.html" class="chat_item">
+                <div class="userpic userpic_alt">
+                    <span class="initials">BUM</span>
+                </div>
+                <div class="chat_info">
+                    <span class="bold">Messengers</span>
+                    <span class="details">Файл: messengers.html</span>
+                </div>
+                <div class="arrow_icon">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
